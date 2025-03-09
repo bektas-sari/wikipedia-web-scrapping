@@ -9,15 +9,12 @@ A **Flask-based web application** that allows users to explore random Wikipedia 
 - **Asynchronous Fetching** (No page refresh required)
 - **Flask Backend with JSON API Support**
 
-## 📸 Screenshot
-![App Screenshot](screenshot.png)
-
 ## 🔧 Installation & Setup
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/wikipedia-article-explorer.git
-   cd wikipedia-article-explorer
+   git clone https://github.com/bektas-sari/wikipedia-web-scrapping.git
+   cd wikipedia-web-scrapping
    ```
 
 2. **Create a Virtual Environment (Optional but Recommended):**
@@ -71,8 +68,5 @@ If you like this project, give it a ⭐ on GitHub!
 
 ---
 
-📩 **Contact:** [Your Name] - your.email@example.com  
-🔗 **GitHub:** [yourusername](https://github.com/yourusername)
-
-description:
-Wikipedia Article Explorer is a Flask-based web app that fetches random Wikipedia articles using web scraping. Users can explore articles with a single click in a modern, responsive UI. Built with Flask, BeautifulSoup, and JavaScript, it supports asynchronous fetching without page refresh. Fast, user-friendly, and mobile-compatible!
+📩 **Contact:** [Bektas SARI] - bektas.sari@gmail.com 
+🔗 **GitHub:** [Bektas SARI](https://github.com/bektas-sari)
