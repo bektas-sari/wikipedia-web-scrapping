@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Article Explorer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        function getArticle() {
+            fetch("/get_article")
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("article-title").innerText = data.title;
+                document.getElementById("article-link").href = data.link;
+                document.getElementById("article-link").innerText = "Read Full Article";
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Wikipedia Article Explorer</h1>
+        <h2 id="article-title">Click the button to explore a new article!</h2>
+        <p><a id="article-link" href="#" target="_blank"></a></p>
+        <button onclick="getArticle()">Get New Article</button>
+        <footer class="footer">
+            <p>©Bektas | 2025</p>
+        </footer>
+    </div>
+
+  
+</body>
+</html>
