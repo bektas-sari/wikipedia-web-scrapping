@@ -77,7 +77,3 @@ Pull requests are welcome! If you find any issues, feel free to open an issue or
 ## 🌟 Show Your Support
 If you like this project, give it a ⭐ on GitHub!
 
----
-
-📩 **Contact:** [Bektas SARI] - bektas.sari@gmail.com 
-🔗 **GitHub:** [Bektas SARI](https://github.com/bektas-sari)
