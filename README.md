@@ -56,6 +56,17 @@ A **Flask-based web application** that allows users to explore random Wikipedia 
 ├── requirements.txt (Dependencies)
 └── README.md (Project Documentation)
 ```
+## 👤 Developer
+
+**Bektas Sari**  
+
+Email: bektas.sari@gmail.com  <br>
+GitHub: https://github.com/bektas-sari <br>
+LinkedIn: www.linkedin.com/in/bektas-sari <br>
+Researchgate: https://www.researchgate.net/profile/Bektas-Sari-3 <br>
+Academia: https://independent.academia.edu/bektassari <br>
+
+---
 
 ## 📝 License
 This project is licensed under the **MIT License**.
